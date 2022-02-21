@@ -1,0 +1,115 @@
+@import "null.css";
+@import url(https://fonts.googleapis.com/css?family=Lato:regular,700,900&display=swap);
+
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+	margin: 0 auto;
+	max-width: 810px;
+}
+
+body {
+	font-family: "Lato", sans-serif;
+	font-size: 16px;
+	color: #424551;
+	line-height: 1.6;
+}
+
+.page {
+	margin: 190px 0 212px;
+}
+
+h1,
+.bold {
+	color: #1e212c;
+}
+h1 {
+	font-size: 46px;
+	font-weight: 900;
+	line-height: 1.3;
+	/* margin-bottom: 92px; */
+}
+.bold1,
+.bold2 {
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 1.5;
+}
+
+.bold1 {
+	margin-top: 60px;
+}
+
+.bold2 {
+	margin-bottom: 48px;
+	background: url("../img/Rectangle\ 268.svg") 0 0 no-repeat, url("../img/Rectangle\ 268.svg") 18px 0 no-repeat;
+	padding: 0 0 0 58px;
+}
+
+.paragraph {
+	margin: 24px 0px 48px 0px;
+}
+
+.paragraph__p1 {
+	margin: 0 0 28px 0;
+}
+
+.list {
+	margin: 24px 0;
+}
+
+img {
+	width: 810px;
+}
+
+.item-list {
+	background: url("../img/Vector.svg") 0 5px no-repeat;
+	padding: 0 0 0 32px;
+}
+
+.item-list {
+	margin: 0 0 4px 0;
+}
+
+.time {
+	margin: 40px 0px 26px 0px;
+	color: #787a80;
+}
+
+.span1-time {
+	margin-right: 24px;
+	background: url("../img/Vector\ \(Stroke\).svg") 0 2px no-repeat;
+	padding: 0 0 0 24px;
+}
+
+.span2-time {
+	background: url("../img/Union.svg") 0 2px no-repeat;
+	padding: 0 0 0 24px;
+}
+
+.link {
+	font-size: 25px;
+	margin: 20px;
+	text-decoration: underline;
+	background: url("../img/Line\ \(Stroke\).svg") 0 13px no-repeat;
+	padding: 0 0 0 25px;
+}
+
+h2 {
+	text-transform: uppercase;
+	font-weight: 700;
+}
+
+.share,
+.share2 {
+	color: #1e212c;
+	min-width: 142px;
+	font-weight: 700;
+	line-height: 26px;
+	background: url("../img/fb.svg") 57px 3px / 20px no-repeat, url("../img/tt.svg") 89px 3px / 20px no-repeat,
+		url("../img/in.svg") 121px 3px / 20px no-repeat;
+}
+
+.share2 {
+	margin-top: 63px;
+}
